@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int decimal_binary(int n)
 {
-    int n,answer=0;
+    int answer = 0;
     int multiten = 1;
-    cin >> n;
     while (n != 0)
     {
         int remainder = n % 2;
@@ -13,10 +12,21 @@ int main()
         answer = answer + (remainder * multiten);
         multiten = multiten * 10;
     }
-    cout << answer;
+    return answer;
+}
+int main()
+{
+    int n;
+    cout << "Enter the Decimal number: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+
+        cout << "The Binary form of " << i << " is : " << decimal_binary(i) << endl;
+    }
 }
 
 // n = 50
 //  remainder = 50 % 2 = 0
 //  n = 50 / 2 = 25
-//  answer = 
+//  answer =
