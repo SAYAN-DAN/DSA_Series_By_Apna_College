@@ -83,23 +83,23 @@ int unique_number(int arr[], int size)
     }
 }
 
-// int main()
-// {
-//     int size;
-//     cout << "Enter the number of Array: " << endl;
-//     cin >> size;
-//     int arr[size];
-//     cout << "Enter the Arrays: " << endl;
-//     for (int i = 0; i < size; i++)
-//     {
-//         cin >> arr[i];
-//     }
-//     // reverse_array_1(arr, size);
-//     // reverse_Array_2(arr, size);
-//     // sum_product_array(arr, size);
-//     // swap_max_min_number(arr, size);
-//     // unique_number(arr, size);
-// }
+int main()
+{
+    int size;
+    cout << "Enter the number of Array: " << endl;
+    cin >> size;
+    int arr[size];
+    cout << "Enter the Arrays: " << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+    // reverse_array_1(arr, size);
+    // reverse_Array_2(arr, size);
+    // sum_product_array(arr, size);
+    // swap_max_min_number(arr, size);
+    unique_number(arr, size);
+}
 
 
 
@@ -121,29 +121,29 @@ int intersection(int arr1[], int arr2[], int size1, int size2)
             cout << endl;
     }
 }
-int main()
-{
-    cout << "Enter the number of element of the firrst Araay: ";
-    int size1;
-    cin >> size1;
-    int arr1[size1];
-    cout << "Enter the 1st Array elements: ";
-    for (int i = 0; i < size1; i++)
-    {
-        cin >> arr1[i];
-    }
+// int main()
+// {
+//     cout << "Enter the number of element of the firrst Araay: ";
+//     int size1;
+//     cin >> size1;
+//     int arr1[size1];
+//     cout << "Enter the 1st Array elements: ";
+//     for (int i = 0; i < size1; i++)
+//     {
+//         cin >> arr1[i];
+//     }
 
-    cout << "Enter the number of element of the firrst Araay: ";
-    int size2;
-    cin >> size2;
-    int arr2[size2];
-    cout << "Enter the 1st Array elements: ";
-    for (int i = 0; i < size2; i++)
-    {
-        cin >> arr2[i];
-    }
+//     cout << "Enter the number of element of the firrst Araay: ";
+//     int size2;
+//     cin >> size2;
+//     int arr2[size2];
+//     cout << "Enter the 1st Array elements: ";
+//     for (int i = 0; i < size2; i++)
+//     {
+//         cin >> arr2[i];
+//     }
 
-    intersection(arr1, arr2, size1, size2);
-}
+//     intersection(arr1, arr2, size1, size2);
+// }
 
 
