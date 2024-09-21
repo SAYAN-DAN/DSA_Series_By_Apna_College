@@ -98,11 +98,8 @@ int main()
     // reverse_Array_2(arr, size);
     // sum_product_array(arr, size);
     // swap_max_min_number(arr, size);
-    unique_number(arr, size);
+    // unique_number(arr, size);
 }
-
-
-
 
 // problem no -5
 // WAP TO PRINT THE INTERSECTION OF TWO ARRAYS
@@ -115,10 +112,10 @@ int intersection(int arr1[], int arr2[], int size1, int size2)
         {
             if (arr1[i] == arr2[j])
             {
-                cout <<"The intersection elemenrs are: "<< arr1[i] << " ";
+                cout << "The intersection elemenrs are: " << arr1[i] << " ";
             }
         }
-            cout << endl;
+        cout << endl;
     }
 }
 // int main()
@@ -145,5 +142,3 @@ int intersection(int arr1[], int arr2[], int size1, int size2)
 
 //     intersection(arr1, arr2, size1, size2);
 // }
-
-
